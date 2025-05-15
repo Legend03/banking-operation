@@ -19,7 +19,7 @@ struct time
     int minutes;
 };
 
-struct book_subscription
+struct banking_operation
 {
     date date;
     time time;
