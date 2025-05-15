@@ -6,28 +6,27 @@
 
 using namespace std;
 
-struct date
+struct Date
 {
-    int day;
-    int month;
-    int year;
+    string day;
+    string month;
+    string year;
 };
 
-struct time
+struct Time
 {
-    int hours;
-    int minutes;
+    string hours;
+    string minutes;
 };
 
-struct banking_operation
+struct Banking_operation
 {
-    date date;
-    time time;
+    Date date;
+    Time time;
     string kindOperation;
-    string bandAccount;
-    double amount;
+    string bankAccount;
+    double amount = 0;
     string discription;
-    char title[MAX_STRING_SIZE];
 };
 
 #endif
