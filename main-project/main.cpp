@@ -13,6 +13,7 @@ int main()
     cout << "Лабораторная работа #1. GIT\n";
     cout << "Вариант #7. Банковские операции\n";
     cout << "Автор: Влад Пундалов\n\n";
+    cout << "Группа: 24ПИнж\n";
 
     Banking_operation* subscriptions[MAX_FILE_ROWS_COUNT];
     int size;
