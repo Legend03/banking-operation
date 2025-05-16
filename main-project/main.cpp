@@ -7,7 +7,6 @@ using namespace std;
 #include "file-reader.h"
 #include "constants.h"
 #include "filter.h"
-#include "processing.h"
 
 void output(Banking_operation* operation)
 {

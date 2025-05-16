@@ -126,7 +126,6 @@
     <ClCompile Include="file-reader.cpp" />
     <ClCompile Include="filter.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="process.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt" />
@@ -136,7 +135,6 @@
     <ClInclude Include="constants.h" />
     <ClInclude Include="file-reader.h" />
     <ClInclude Include="filter.h" />
-    <ClInclude Include="processing.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
