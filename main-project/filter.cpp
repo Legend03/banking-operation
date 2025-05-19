@@ -73,7 +73,7 @@ Banking_operation** selection_sort_by_discription(Banking_operation* array[], in
         int min_idx = i;
 
         for (int j = i + 1; j < size; j++) {
-            if (result[j]->discription.length() <= result[min_idx]->discription.length()) {
+            if (strcmp(result[j]->discription.c_str(), result[min_idx]->discription.c_str()) == -1) {
                 min_idx = j;
             }
         }
